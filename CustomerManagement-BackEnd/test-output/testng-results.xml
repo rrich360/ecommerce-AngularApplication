@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="7389" started-at="2022-08-11T19:51:25 EDT" finished-at="2022-08-11T19:51:33 EDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="7389" started-at="2022-08-11T19:51:25 EDT" finished-at="2022-08-11T19:51:33 EDT">
+      <class name="com.provider.springboot.uiTests.TestCaseSubscriberFormUI">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.provider.springboot.uiTests.TestCaseSubscriberFormUI@25b485ba]" name="beforeSuite" is-config="true" duration-ms="5" started-at="2022-08-11T19:51:25 EDT" finished-at="2022-08-11T19:51:25 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeMethodClass()[pri:0, instance:com.provider.springboot.uiTests.TestCaseSubscriberFormUI@25b485ba]" name="beforeMethodClass" is-config="true" duration-ms="4081" started-at="2022-08-11T19:51:25 EDT" finished-at="2022-08-11T19:51:29 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodClass -->
+        <test-method status="PASS" signature="givenPreAddedSubscriber_whenAddressIsChanged_thenSubscriberIsUpdated()[pri:0, instance:com.provider.springboot.uiTests.TestCaseSubscriberFormUI@25b485ba]" name="givenPreAddedSubscriber_whenAddressIsChanged_thenSubscriberIsUpdated" duration-ms="1313" started-at="2022-08-11T19:51:29 EDT" finished-at="2022-08-11T19:51:31 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- givenPreAddedSubscriber_whenAddressIsChanged_thenSubscriberIsUpdated -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.provider.springboot.uiTests.TestCaseSubscriberFormUI@25b485ba]" name="close" is-config="true" duration-ms="1" started-at="2022-08-11T19:51:31 EDT" finished-at="2022-08-11T19:51:31 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="givenPreAddedSubscriber_whenEmailIsChanged_thenSubscriberIsUpdated()[pri:0, instance:com.provider.springboot.uiTests.TestCaseSubscriberFormUI@25b485ba]" name="givenPreAddedSubscriber_whenEmailIsChanged_thenSubscriberIsUpdated" duration-ms="419" started-at="2022-08-11T19:51:31 EDT" finished-at="2022-08-11T19:51:31 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- givenPreAddedSubscriber_whenEmailIsChanged_thenSubscriberIsUpdated -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.provider.springboot.uiTests.TestCaseSubscriberFormUI@25b485ba]" name="close" is-config="true" duration-ms="1" started-at="2022-08-11T19:51:31 EDT" finished-at="2022-08-11T19:51:31 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="givenPreAddedSubscriber_whenUsernameIsChanged_thenSubscriberIsUpdated()[pri:0, instance:com.provider.springboot.uiTests.TestCaseSubscriberFormUI@25b485ba]" name="givenPreAddedSubscriber_whenUsernameIsChanged_thenSubscriberIsUpdated" duration-ms="367" started-at="2022-08-11T19:51:31 EDT" finished-at="2022-08-11T19:51:31 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- givenPreAddedSubscriber_whenUsernameIsChanged_thenSubscriberIsUpdated -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.provider.springboot.uiTests.TestCaseSubscriberFormUI@25b485ba]" name="close" is-config="true" duration-ms="0" started-at="2022-08-11T19:51:31 EDT" finished-at="2022-08-11T19:51:31 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="givenSubscriberPage_whenAllInputFieldsValidTheSecondTime_thenAddSubscriberToList()[pri:0, instance:com.provider.springboot.uiTests.TestCaseSubscriberFormUI@25b485ba]" name="givenSubscriberPage_whenAllInputFieldsValidTheSecondTime_thenAddSubscriberToList" duration-ms="258" started-at="2022-08-11T19:51:31 EDT" finished-at="2022-08-11T19:51:32 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- givenSubscriberPage_whenAllInputFieldsValidTheSecondTime_thenAddSubscriberToList -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.provider.springboot.uiTests.TestCaseSubscriberFormUI@25b485ba]" name="close" is-config="true" duration-ms="0" started-at="2022-08-11T19:51:32 EDT" finished-at="2022-08-11T19:51:32 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="givenSubscriberPage_whenAllInputFieldsValid_thenAddSubscriberToList()[pri:0, instance:com.provider.springboot.uiTests.TestCaseSubscriberFormUI@25b485ba]" name="givenSubscriberPage_whenAllInputFieldsValid_thenAddSubscriberToList" duration-ms="241" started-at="2022-08-11T19:51:32 EDT" finished-at="2022-08-11T19:51:32 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- givenSubscriberPage_whenAllInputFieldsValid_thenAddSubscriberToList -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.provider.springboot.uiTests.TestCaseSubscriberFormUI@25b485ba]" name="close" is-config="true" duration-ms="2" started-at="2022-08-11T19:51:32 EDT" finished-at="2022-08-11T19:51:32 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="givenSubscriberPage_whenEmptyEmail_AddButtonIsDisabled()[pri:0, instance:com.provider.springboot.uiTests.TestCaseSubscriberFormUI@25b485ba]" name="givenSubscriberPage_whenEmptyEmail_AddButtonIsDisabled" duration-ms="308" started-at="2022-08-11T19:51:32 EDT" finished-at="2022-08-11T19:51:32 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- givenSubscriberPage_whenEmptyEmail_AddButtonIsDisabled -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.provider.springboot.uiTests.TestCaseSubscriberFormUI@25b485ba]" name="close" is-config="true" duration-ms="0" started-at="2022-08-11T19:51:32 EDT" finished-at="2022-08-11T19:51:32 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="givenSubscriberPage_whenEmptyUsername_AddButtonIsDisabled()[pri:0, instance:com.provider.springboot.uiTests.TestCaseSubscriberFormUI@25b485ba]" name="givenSubscriberPage_whenEmptyUsername_AddButtonIsDisabled" duration-ms="349" started-at="2022-08-11T19:51:32 EDT" finished-at="2022-08-11T19:51:33 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- givenSubscriberPage_whenEmptyUsername_AddButtonIsDisabled -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.provider.springboot.uiTests.TestCaseSubscriberFormUI@25b485ba]" name="close" is-config="true" duration-ms="1" started-at="2022-08-11T19:51:33 EDT" finished-at="2022-08-11T19:51:33 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.provider.springboot.uiTests.TestCaseSubscriberFormUI@25b485ba]" name="afterSuite" is-config="true" duration-ms="4637" started-at="2022-08-11T19:51:33 EDT" finished-at="2022-08-11T19:51:37 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.provider.springboot.uiTests.TestCaseSubscriberFormUI -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
