@@ -1,0 +1,77 @@
+<div class="generic-container">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <span class="lead">Online Store owner Registration Form </span>
+            <a class="floatRight" style="font-size:18px" href="/home" id="homeLink">Home</a>
+        </div>
+        <div id="subscriberForm" class="formcontainer">
+            <form [formGroup]="subscriberForm" (ngSubmit)="submit()" class="form-horizontal">
+                <input type="hidden" ng-model="subscriber.id" />
+                <div class="row">
+                    <div class="form-group col-md-12">
+                        <label class="col-md-2 control-lable" for="file">Username</label>
+                        <div class="col-md-7">
+                            <input type="text" id="username" formControlName="username" name="username" class="form-control input-sm" placeholder="Enter the store owner's username" required/>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="form-group col-md-12">
+                        <label class="col-md-2 control-lable" for="file">Address</label>
+                        <div class="col-md-7">
+                            <input type="text" id="address" formControlName="address" name="address" class="form-control input-sm" placeholder="Enter your address for shipment if purchasing wholesale products"/>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="form-group col-md-12">
+                        <label class="col-md-2 control-lable" for="file">Email</label>
+                        <div class="col-md-7">
+                            <input type="text" id="email" formControlName="email" name="email" class="form-control input-sm" placeholder="Enter your email for notifications on shipment"/>
+                        </div>
+                    </div>
+                </div>
+
+                <br>
+
+                <div class="row">
+                    <div class="form-actions">
+                        <input *ngIf="!subscriberForm.value.id" type="submit" id="addButton" (click)=add(subscriberForm.value) value="Submit" class="btn btn-primary btn-sm" [disabled]="subscriberForm.invalid">
+                        <input *ngIf="subscriberForm.value.id" type="submit" id="updateButton" (click)=update(subscriberForm.value) value="Update" class="btn btn-primary btn-sm" [disabled]="subscriberForm.invalid">
+                        <button type="button" id="resetButton" (click)="reset()" class="btn btn-warning btn-sm">Reset Form</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading"><span class="lead">List of Subscribers </span></div>
+        <div class="tablecontainer">
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Username</th>
+                        <th>Address</th>
+                        <th>Email</th>
+                        <th width="20%"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr id="list" *ngFor="let subscriber of subscribers">
+                        <td><span id="subscriberId">{{subscriber.id}}</span></td>
+                        <td><span id="subscriberUsername">{{subscriber.username}}</span></td>
+                        <td><span id="subscriberAddress">{{subscriber.address}}</span></td>
+                        <td><span id="subscriberEmail">{{subscriber.email}}</span></td>
+                        <td>
+                        <button type="button" id="editButton" (click)="edit(subscriber)" class="btn btn-success custom-width">Edit</button>
+                        <button type="button" id="deleteButton" (click)="delete(subscriber)" class="btn btn-danger custom-width">Delete</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
